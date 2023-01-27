@@ -1,0 +1,56 @@
+.design{
+    /* border: 1px solid; */
+    height: 66vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    box-shadow: inset 2px 2px 110px -60px green;
+}
+
+.typo-effect{
+    /* transform: scale(); */
+    padding-top: 5%;
+    /* border: 1px solid; */
+    height: 300px;
+    width: 650px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 8px 7px 5px #3cb159;
+}
+.image{
+    height: 300px;
+    width: 450px;
+    /* border: 1px solid; */
+    animation-name: imageSlider;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-repeat: no-repeat;
+    /* background-image: url('image1.jpg'); */
+    background-position: center;
+    background-size: cover;
+    box-shadow: 6px 5px 176px 9px #0be12d;
+}
+
+@keyframes imageSlider {
+    0%{
+        background-image: url('image1.jpg');
+    }
+    25%{
+
+        background-image: url('image2.jpg');
+    }
+    50%{
+        background-image: url('image3.jpg');
+    }
+    75%{
+        background-image: url('image4.jpg');
+    }
+    100%{
+        background-image: url('image5.jpg');
+    }
+
+}

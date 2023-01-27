@@ -1,0 +1,46 @@
+.navbar{
+    /* background-color: #49c949; */
+    height: 70px;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-content: center;
+    justify-content: space-around;
+    z-index: 1;
+
+    background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+}
+
+img{
+    height: 74px;
+    transform: scale(0.7);
+    
+}
+button{
+    border: none;
+    background-color: inherit;
+}
+.cart{
+    width: 424px;
+    height: 402px;
+    padding: 1px 11px;
+}
+.cartEmpty{
+    background-image: url('EmptyCart.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 402px;
+}
+.input-style{
+    border: none;
+    border-radius: 21px;
+    padding: 5px 15px;
+    font-family: 'Poppins';
+    box-shadow: 1px 1px 5px -2px black;
+}
+.searchbtn{
+    margin-left: 10px;
+    transform: scale(1.2);
+}
